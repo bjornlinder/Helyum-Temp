@@ -2,7 +2,7 @@
 
   <div class='small-3 columns'>
     <figure>
-      <a href='/'><img src="images/logo.png" alt="Helyum" height="100" width='110'></a>
+      <a href='/'><img src="images/logo.png" alt="Helyum"></a>
       <figcaption style='font-size:12px;padding-top:0px;'>Buy for Less, Sell for More</figcaption>
     </figure>
   </div>
@@ -16,7 +16,11 @@
 </div>
 
 <div class='row'>
-
+  
+  <% if flash[:notice].present? %>
+    <%= flash[:notice] %>
+  <% end %>
+  
   <%= render 'form' %>
 
 </div>
