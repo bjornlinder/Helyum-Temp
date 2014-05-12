@@ -16,3 +16,13 @@
 
  */
 
+body {
+  background-color: #BDE9FF;
+}
+
+li {
+  display:inline;
+  color:black;
+  font-style:italic;
+  float: right;
+}

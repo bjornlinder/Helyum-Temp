@@ -40,7 +40,7 @@
 
 // We use these to control various global styles
 // $body-bg: #fff;
-// $body-font-color: #222;
+$body-font-color: grey;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -54,7 +54,7 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+$primary-color: #d3d3d3;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -73,8 +73,8 @@
 // $column-gutter: rem-calc(30);
 
 // Media Query Ranges
-// $small-range: (0em, 40em);
-// $medium-range: (40.063em, 64em);
+$small-range: (0em, 35em);
+$medium-range: (35.063em, 64em);
 // $large-range: (64.063em, 90em);
 // $xlarge-range: (90.063em, 120em);
 // $xxlarge-range: (120.063em, 99999999em);
@@ -119,21 +119,21 @@
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-// $header-font-weight: normal;
+$header-font-weight: strong;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: #808080;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-// $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
-// $h3-font-size: rem-calc(27);
-// $h4-font-size: rem-calc(23);
-// $h5-font-size: rem-calc(18);
-// $h6-font-size: 1rem;
+$h1-font-size: rem-calc(30);
+$h2-font-size: rem-calc(24);
+$h3-font-size: rem-calc(18);
+$h4-font-size: rem-calc(16);
+$h5-font-size: rem-calc(14);
+$h6-font-size: rem-calc(12);
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
@@ -336,8 +336,8 @@
 // We use these to control button text styles.
 // $button-font-family: $body-font-family;
 // $button-font-color: #fff;
-// $button-font-color-alt: #333;
-// $button-font-tny: rem-calc(11);
+$button-font-color-alt: #fff;
+$button-font-tny: rem-calc(14);
 // $button-font-sml: rem-calc(13);
 // $button-font-med: rem-calc(16);
 // $button-font-lrg: rem-calc(20);
@@ -348,8 +348,8 @@
 // $button-function-factor: -20%;
 
 // We use these to control button border styles.
-// $button-border-width: 0px;
-// $button-border-style: solid;
+$button-border-width: 1px;
+$button-border-style: solid;
 // $bg: $primary-color;
 // $button-border-color: scale-color($bg, $lightness: $button-function-factor);
 
