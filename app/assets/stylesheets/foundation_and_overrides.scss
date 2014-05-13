@@ -40,7 +40,7 @@
 
 // We use these to control various global styles
 // $body-bg: #fff;
-$body-font-color: grey;
+$body-font-color: #666666;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -54,7 +54,7 @@ $body-font-color: grey;
 // $default-float: left;
 
 // We use these as default colors throughout
-$primary-color: #d3d3d3;
+$primary-color: #C1CDCD;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -119,9 +119,10 @@ $medium-range: (35.063em, 64em);
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-$header-font-weight: strong;
+$header-font-family: Trebuchet MS;
+// $header-font-weight: strong;
 // $header-font-style: normal;
-$header-font-color: #808080;
+$header-font-color: #666666;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
