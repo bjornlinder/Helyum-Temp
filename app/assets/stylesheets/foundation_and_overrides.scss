@@ -171,7 +171,7 @@ $h6-font-size: rem-calc(12);
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
-// $hr-border-color: #ddd;
+$hr-border-color: #808080;
 // $hr-margin: rem-calc(20);
 
 // We use these to style lists
@@ -353,7 +353,7 @@ $button-border-width: 1px;
 $button-border-style: solid;
 // $bg: $primary-color;
 // $button-border-color: scale-color($bg, $lightness: $button-function-factor);
-
+$button-border-color: #4D4D4D;
 // We use this to set the default radius used throughout the core.
 // $button-radius: $global-radius;
 // $button-round: $global-rounded;
