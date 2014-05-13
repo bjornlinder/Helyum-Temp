@@ -13,7 +13,7 @@ class UsersController < ApplicationController
 
     if @user.save
       redirect_to root_path
-      flash[:notice] = "Thank you #{@user.first_name}! Username #{@user.username} has been reserved."
+      flash[:notice] = "Thank you #{@user.first_name}! Username '#{@user.username}' has been reserved."
     else
       render :new
     end

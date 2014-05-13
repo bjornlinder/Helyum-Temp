@@ -27,10 +27,11 @@
 </div>
 
 <div class='row'>
-  <% if flash[:notice].present? %>
-    <%= flash[:notice] %>
-  <% end %>
+
   <div class='medium-4 columns' style='background-color: #fff; padding-top: 15px;'>
+    <% if flash[:notice].present? %>
+      <b><%= flash[:notice] %></b><br><br>
+    <% end %>
     <%= render 'form' %>
   </div>
   <div class='medium-8 columns' style='padding-left: 50px; text-align:center;'>
