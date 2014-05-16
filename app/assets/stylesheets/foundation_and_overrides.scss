@@ -41,7 +41,7 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 $body-font-color: #666666;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: Arial, "Arial", "Helvetica Neue", Arial sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -119,7 +119,7 @@ $medium-range: (35.063em, 64em);
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-$header-font-family: Trebuchet MS;
+// Trebuchet MS;
 // $header-font-weight: strong;
 // $header-font-style: normal;
 $header-font-color: #666666;
