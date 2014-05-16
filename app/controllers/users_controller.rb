@@ -6,6 +6,7 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
+    @email = Email.new
   end
 
   def join
@@ -14,6 +15,7 @@ class UsersController < ApplicationController
   
   def create
     @user = User.new(user_params)
+    @email = Email.new
 
     if @user.save
       redirect_to root_path

@@ -4,13 +4,16 @@
   <b>Join Now</b> and reserve your username
   <hr>
   <div class="form-inputs">
-    <%= f.input :first_name, required: true, autofocus: true, placeholder: 'First Name', label: false %>
-    <%= f.input :last_name, required: true, placeholder: 'Last Name', label: false %>
+    <div class="input string required user_first_name" style='width: 48%; display:inline;'>
+      <input autofocus="autofocus" class="string required" id="user_first_name" name="user[first_name]" placeholder="First Name" style="width: 49%; display:inline;" type="text" />
+    </div>
+    <div class="input string required user_last_name" style='width: 48%; display:inline;'>
+      <input autofocus="autofocus" class="string required" id="user_last_name" name="user[last_name]" placeholder="Last Name" style="width: 49%; display:inline;" type="text" />
+    </div>
     <%= f.input :username, required: true, placeholder: 'Username', label: false %>
     <%= f.input :email, required: true, placeholder: 'email@domain.com', label: false %>
   </div>
-
   <div class="form-actions">
-    <%= f.button :submit, 'Sign up for Helyum', style: 'background-color:skyblue;' %>
+    <input class="tiny button" name="commit" style="background-color: skyblue;" type="submit" value="Create User" />
   </div>
 <% end %>
