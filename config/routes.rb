@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'users#new'
-  get 'join' => 'users#join'
+  root 'users#join'
+  # get 'join' => 'users#join'
   resources :emails, only: [:new, :create]
   
   # Example of regular route:
