@@ -34,6 +34,7 @@ group :production do
   gem 'rails_serve_static_assets'
 end
 
+gem 'newrelic_rpm'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
