@@ -21,7 +21,7 @@ class UsersController < ApplicationController
       redirect_to root_path
       flash[:notice] = "Thank you #{@user.first_name}! Username '#{@user.username}' has been reserved."
     else
-      render :new
+      render :join
     end
   end
 
