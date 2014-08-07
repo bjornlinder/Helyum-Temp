@@ -1,7 +1,7 @@
 <%= simple_form_for(@user) do |f| %>
   <%= f.error_notification %>
 
-  <b>Join Now</b> and reserve your username
+  <b>Join Now</b>
   <hr>
   <div class="form-inputs">
     <div class="input string required user_first_name" style='width: 48%; display:inline;'>
@@ -10,8 +10,9 @@
     <div class="input string required user_last_name" style='width: 48%; display:inline;'>
       <input class="string required" id="user_last_name" name="user[last_name]" placeholder="Last Name" style="width: 49%; display:inline;" type="text" />
     </div>
-    <%= f.input :username, required: true, placeholder: 'Username', label: false %>
+    <%= f.input :username, placeholder: 'Username', label: false %>
     <%= f.input :email, required: true, placeholder: 'email@domain.com', label: false %>
+    <%= f.input :suggestions, as: :text, label: "Helyum provides a place for you to buy and sell pre-selected products. Which products would you like to see available on Helyum? "%>
   </div>
   <div class="form-actions">
     <input class="tiny button" name="commit" style="background-color: skyblue;" type="submit" value="Create User" />
