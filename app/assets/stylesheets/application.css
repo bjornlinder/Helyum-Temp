@@ -27,3 +27,11 @@ li {
   font-style:italic;
   float: right;
 }
+
+.logo {
+  background-color: #fff;
+}
+
+.logo img {
+  height: 180px;
+}
